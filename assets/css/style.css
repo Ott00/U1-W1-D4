@@ -153,14 +153,14 @@ iframe{
     padding: 20px;
     background-color: rgb(230, 225, 227);
     line-height: 1.5rem;
+    text-align: center;
 }
 
 .newsletter span{
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 1.5rem;
     font-weight: 600;
-    text-align: center;
     text-transform: uppercase;
 }
 
