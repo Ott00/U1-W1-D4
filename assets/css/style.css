@@ -1,0 +1,224 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/sfondo.png);
+    object-fit: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+body > *{
+    box-shadow: 5px 5px 20px -2px rgb(0 0 0 / 0.5)
+}
+
+/* HEADER */
+header{
+    /* margin-inline: auto; */
+    margin: 20px;
+    background-image: linear-gradient(180deg, rgba(11,111,135,1) 0%, rgba(1,47,59,1) 100%);;
+    text-align: center;
+    padding: 10px;
+}
+
+header img{
+    width: 100%;
+    max-width: 200px;
+    padding: 20px;
+}
+
+header span{
+    display: block;
+    text-transform: uppercase;
+    font-weight:600;
+    color: white;
+}
+
+header nav{
+    padding: 20px
+}
+
+header > nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+header > nav i{
+    color: white;
+}
+
+/* MAIN */
+main{
+    /* margin-inline: auto; */
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+main cite{
+    display: block;
+    width: 100%;
+    padding: 20px 0 0;
+    color: rgb(166, 157, 165);
+}
+
+main section{
+    padding-top: 20px;
+}
+
+main section p{
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 0 0 20px;
+}
+
+.highlight{
+    color: magenta;
+    font-weight: 600;
+}
+
+.link{
+    color: rgb(0, 159, 202);
+    font-weight: 600;
+}
+
+main section ul{
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    line-height: 1.7rem;
+}
+
+main section code{
+    background-color: rgb(230, 225, 227);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+main section ol{
+    list-style-type:decimal;
+    padding-left: 1.5rem;
+    line-height: 1.7rem;
+}
+
+/* TABELLE */
+table{
+    width: 100%;
+    border-bottom: 2px solid rgb(49, 103, 204);
+    margin-bottom: 20px;
+}
+
+table caption{
+    font-weight: 600;
+    font-style: italic;
+}
+
+table th{
+    padding: 1.3rem;
+    color: white;
+    vertical-align: bottom;
+    background-color:rgb(49, 103, 204);
+    border: 1px solid white;
+}
+
+table td{
+    padding: 1rem;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(230, 225, 227);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+/* VIDEO YOUTUBE */
+iframe{
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+/* FORM */
+.newsletter{
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(230, 225, 227);
+    line-height: 1.5rem;
+}
+
+.newsletter span{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newsletter form{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* ELEMENTI NELL' ASIDE */
+aside h4{
+    display: block;
+    margin: 30px 0 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+aside .article{
+    width: 100%;
+    background-color:  rgb(230, 225, 227);
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+aside .article p{
+    padding-top: 10px;
+}
+
+aside .article cite{
+    text-align: end;
+    color: lightslategrey;
+    font-size: 0.8rem;
+}
+
+
+/* FOOTER */
+footer{
+    /* margin-inline: auto; */
+    margin: 20px;
+    background-image: linear-gradient(180deg, rgba(11,111,135,1) 0%, rgba(1,47,59,1) 100%);;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+footer span{
+    display: block;
+    padding: 10px 0 20px;
+}
+
+footer p{
+    line-height: 1.2rem;
+}
