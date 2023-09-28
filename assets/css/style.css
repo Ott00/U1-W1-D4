@@ -153,7 +153,6 @@ iframe{
     padding: 20px;
     background-color: rgb(230, 225, 227);
     line-height: 1.5rem;
-    text-align: center;
 }
 
 .newsletter span{
@@ -162,6 +161,7 @@ iframe{
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .newsletter form{
@@ -172,7 +172,7 @@ iframe{
     text-align: right;
     color: white;
     background-color: rgb(49, 103, 204);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     padding: 0.5rem;
     border: none;
@@ -181,6 +181,7 @@ iframe{
 .newsletter form .mail-form{
     text-align: left;
     color: white;
+    font-size: 1rem;
     padding: 0.5rem;
     border: none;
     border-bottom: 1px dashed black;
