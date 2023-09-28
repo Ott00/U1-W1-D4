@@ -170,7 +170,24 @@ iframe{
 
 .newsletter form{
     width: 100%;
-    text-align: center;
+}
+
+.newsletter form button{
+    text-align: right;
+    color: white;
+    background-color: rgb(49, 103, 204);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    border: none;
+}
+
+.newsletter form .mail-form{
+    text-align: left;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px dashed black;
 }
 
 
