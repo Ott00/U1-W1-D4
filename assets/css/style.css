@@ -9,6 +9,7 @@ body{
     background-image: url(../img/sfondo.png);
     object-fit: cover;
     font-family: 'Poppins', sans-serif;
+    padding: 20px;
 }
 
 body > *{
@@ -18,7 +19,6 @@ body > *{
 /* HEADER */
 header{
     /* margin-inline: auto; */
-    margin: 20px;
     background-image: linear-gradient(180deg, rgba(11,111,135,1) 0%, rgba(1,47,59,1) 100%);;
     text-align: center;
     padding: 10px;
@@ -37,10 +37,6 @@ header span{
     color: white;
 }
 
-header nav{
-    padding: 20px
-}
-
 header > nav a{
     text-decoration: none;
     color: white;
@@ -54,9 +50,9 @@ header > nav i{
 /* MAIN */
 main{
     /* margin-inline: auto; */
-    margin: 20px;
-    background-color: white;
+    margin: 20px 0 20px;
     padding: 20px;
+    background-color: white;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -223,7 +219,6 @@ aside .article cite{
 /* FOOTER */
 footer{
     /* margin-inline: auto; */
-    margin: 20px;
     background-image: linear-gradient(180deg, rgba(11,111,135,1) 0%, rgba(1,47,59,1) 100%);;
     text-align: center;
     padding: 10px;
