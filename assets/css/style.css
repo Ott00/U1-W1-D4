@@ -166,10 +166,12 @@ iframe{
 
 .newsletter form{
     width: 100%;
+    text-align: center;
 }
 
 .newsletter form button{
-    text-align: right;
+    width: 29%;
+    text-align: center;
     color: white;
     background-color: rgb(49, 103, 204);
     font-size: 1rem;
@@ -179,6 +181,7 @@ iframe{
 }
 
 .newsletter form .mail-form{
+    width:69%;
     text-align: left;
     color: white;
     font-size: 1rem;
